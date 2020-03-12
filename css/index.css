@@ -2,27 +2,27 @@
     box-sizing: border-box;
 }
 
-body{
-     font-size:1.5em;
-     font-family: sans-serif;
-     color: white;
+body {
+    font-size: 1.5em;
+    font-family: sans-serif;
+    color: white;
 }
 
-.calculatorContainer{
+.calculatorContainer {
     border: 1px solid white;
     background-color: #605E5E;
     border-radius: 8px;
-    width : 380px;
-    margin : 0 auto;
+    width: 380px;
+    margin: 0 auto;
 }
 
-.calculatorTitle{
+.calculatorTitle {
     color: white;
     margin: 5px;
     text-align: center;
 }
 
-.inputNumber{
+.inputNumber {
     height: 30px;
     width: 100%;
     text-align: right;
@@ -32,29 +32,39 @@ body{
     padding: 0 5px;
 }
 
-.operators{
+.operators {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
-.leftContainer{
+.leftContainer {
     display: flex;
     flex-direction: column;
 }
-.rightContainer{
+
+.rightContainer {
     display: flex;
     flex-direction: column;
 }
-.upperOperators, .lowerOperators{
+
+.upperOperators,
+.lowerOperators {
     display: flex;
     flex-direction: row;
 }
-.upperOperators > span, .lowerOperators > span{
+
+.upperOperators>span,
+.lowerOperators>span {
     width: 50px;
 }
 
-.resetButton, .equalButton, #addButton, #substractButton, #multiplicationButton, #divisionButton{
+.resetButton,
+.equalButton,
+#addButton,
+#substractButton,
+#multiplicationButton,
+#divisionButton {
     padding: 10px;
     border: 1px solid white;
     text-align: center;
@@ -63,29 +73,34 @@ body{
     margin: 5px;
 }
 
-.resetButton:hover, .equalButton:hover, #addButton:hover, #substractButton:hover, #multiplicationButton:hover, #divisionButton:hover{
+.resetButton:hover,
+.equalButton:hover,
+#addButton:hover,
+#substractButton:hover,
+#multiplicationButton:hover,
+#divisionButton:hover {
     background: #A1E1E4;
     cursor: pointer;
     color: #605E5E;
     border-color: #605E5E;
 }
 
-.results{
+.results {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin: 20px;
 }
 
-.display{
+.display {
     padding: 5px;
 }
 
-.labelClass{
+.labelClass {
     color: white;
 }
 
-#logInformation{
+#logInformation {
     padding: 0 10px;
     background-color: #E8E6E6;
     font-size: 0.5em;
@@ -95,5 +110,4 @@ body{
     margin: 10px auto;
     display: block;
     height: 200px;
- }
-
+}
